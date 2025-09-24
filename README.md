@@ -10,5 +10,5 @@ Market Basket Analysis is one of the key techniques used by large retailers to u
 
     freq = apriori(one_hot_df, min_support=0.01, use_colnames=True)
     rules = association_rules(freq, metric="lift", min_threshold=1.2)
-    # Nour El-Rouby
+    #Nour El-Rouby
     ```
